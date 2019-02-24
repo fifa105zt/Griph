@@ -1,0 +1,332 @@
+.container{
+    width: 100%;
+    height: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+/*-----Header-----*/
+header{
+    height: 545px;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 545px;
+    /*background-image: url("../img/top-slide.png");*/
+    background:linear-gradient( to top, transparent 0%, rgba(0,0,0,0.3) 0), url("../img/top-slide.png");
+    background-size: 100% 100%;
+    z-index: -2;
+}
+.overlay:after{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 545px;
+    right: 0;
+    background-image: url("../img/top-ripples.png");
+    background-size: cover;
+    z-index: -1;
+}
+.top-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    width: 560px;
+
+}
+.nav-menu a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    font: 13px "Basis Grotesque Pro Medium";
+}
+.nav-menu{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.top-text__wrap{
+    margin-top: 120px;
+    width: 60px;
+    height: 30px;
+    border-top: 6px solid #fff;
+    border-left: 6px solid #fff;
+    padding: 40px;
+}
+.top-text{
+
+    font: 40px "Basis Grotesque Pro Black";
+    color: white;
+    width: 670px;
+}
+
+/*-----Header-----*/
+
+/*-----Content-----*/
+
+.content{
+    background-color: #f8f8f8;
+}
+.block-wrap{
+    display: flex;
+}
+.block{
+    padding: 80px 70px 100px;
+    font: 14px "Basis Grotesque Pro Medium";
+    color: #818181;
+    line-height: 2.3;
+}
+.block span{
+    display: inline-block;
+}
+.block h3 {
+    padding: 27px 0 35px;
+    font: 20px "Basis Grotesque Pro Black";
+    text-transform: uppercase;
+    color: black;
+    border-top: 5px solid black;
+}
+.block-wrap .question{
+    position: relative;
+    top: -50px;
+    height: 640px;
+    width: 540px;
+    background-color: #ffffff;
+}
+.question .block .block-text{
+    padding-bottom: 55px;
+    font: 16px "Basis Grotesque Pro Medium";
+    line-height: 2.3;
+}
+.question span.block-text:first-child{
+    padding-bottom: 75px;
+    color: black;
+}
+.short{
+    margin-top: 140px;
+    height: 525px;
+    width: 400px;
+}
+.short .block{
+    background-color: #f9f5d5;
+}
+.quality .block{
+    background-color: #e9f6fd;
+}
+.team .block{
+    background-color: #f8e4e3;
+}
+.quality{
+    margin-top: 20px;
+    height: 700px;
+    width: 400px;
+}
+.team{
+    height: 510px;
+    width: 400px;
+}
+
+.short .block .block-text,
+.quality .block .block-text {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e1ddc0;
+}
+.team .block .block-text {
+    padding-bottom: 40px;
+}
+.block a.button-text {
+    display: block;
+    margin: 0 auto;
+    /*width: 285px;*/
+    /*height: 65px;*/
+    background: none;
+    font: 16px "Basis Grotesque Pro Black";
+    padding: 20px;
+    border: 3px solid  rgba(12,12,12,0.3);
+    text-decoration: none;
+    color: black;
+}
+.team .block a.button-text{
+    /*width: 260px;*/
+}
+.block a.button-text span:after{
+    content: url("../img/arrow.png");
+    padding-left: 85px;
+}
+.quality-img {
+    position: relative;
+    margin-top: 75px;
+    width: 540px;
+    height: 550px;
+}
+.block-wrap .team{
+    position: relative;
+    top: -180px;
+    left: 460px;
+    margin-bottom: 160px;
+
+}
+
+/*-----Content-----*/
+
+
+/*-----Footer-----*/
+
+footer{
+
+    height: 500px;
+}
+footer .container{
+    position: relative;
+}
+footer .logo{
+    display: inline-block;
+    margin-top: 60px;
+}
+.foot-text{
+    margin-left: 47px;
+    font: 16px "Basis Grotesque Pro Black";
+}
+.foot-block{
+    display: flex;
+    align-items: baseline;
+    width: 940px;
+    margin-top: 50px;
+    padding-bottom: 95px;
+    border-bottom: 1px solid #818181;
+}
+.contact span,
+.contact a{
+    display: block;
+    padding-bottom: 22px;
+    text-decoration: none;
+    color: #818181;
+    font: 16px "Basis Grotesque Pro Medium";
+}
+.contact:first-child{
+    padding-left: 82px;
+}
+.contact span:first-child,
+.contact a:last-child{
+    color: black;
+    font: 16px "Basis Grotesque Pro Black";
+}
+.foot-block img{
+    width: 22px;
+    height: 100%;
+}
+.foot-block .contact{
+    margin-right: 80px;
+}
+
+.foot-block img{
+    margin-right: 55px;
+}
+.rights{
+    position: absolute;
+    right: 0;
+    padding: 35px 0;
+    font: 12px "Basis Grotesque Pro Medium";
+}
+/*-----Footer-----*/
+
+/*-----Contact Form-----*/
+.hidden-form{
+    display: none;
+    position: absolute;
+    top: 320px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+.hidden-form .popup .form-inner{
+    position: relative;
+    margin: 0 auto;
+    width: 540px;
+    height: 640px;
+    background-color: white;
+}
+.hidden-form .popup .form-inner .close {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+}
+.hidden-form .popup .form-inner .close:hover {
+    opacity: .3;
+}
+.hidden-form .popup .form-inner .close:before,
+.hidden-form .popup .form-inner .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+.hidden-form .popup .form-inner .close:before {
+    transform: rotate(45deg);
+}
+.hidden-form .popup .form-inner .close:after {
+    transform: rotate(-45deg);
+}
+.hidden-form .popup .form-inner span{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 60px 0 30px 0;
+    font: 16px "Basis Grotesque Pro Bold";
+}
+.hidden-form .popup .form-inner .form-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hidden-form .popup .form-inner .form-input .input{
+    height: 60px;
+    width: 465px;
+    margin-bottom: 15px;
+    background: none;
+    border: 3px solid #e7e7e7;
+    font: 16px "Basis Grotesque Pro Bold";
+}
+.hidden-form .popup .form-inner .form-input .input[placeholder]{
+    font: 16px "Basis Grotesque Pro Bold";
+    padding-left: 18px;
+}
+.hidden-form .popup .form-inner .form-input .text-area[placeholder]{
+    padding-top: 25px;
+}
+.hidden-form .popup .form-inner .form-input .text-area{
+    height: 220px;
+    margin-bottom: 20px;
+    font: 16px "Basis Grotesque Pro Bold";
+    resize: none;
+}
+.hidden-form .popup .form-inner .form-input .button{
+    height: 60px;
+    width: 285px;
+    background: none;
+    border: 3px solid #e7e7e7;
+    font: 16px "Basis Grotesque Pro Bold";
+}
+.hidden-form .cover {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    z-index: -1;
+}
+/*-----Contact Form-----*/
+
+
+

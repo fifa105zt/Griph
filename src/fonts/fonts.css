@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Basis Grotesque Pro Bold';
+    src: url('subset-BasisGrotesquePro-Bold.eot');
+    src: url('subset-BasisGrotesquePro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('subset-BasisGrotesquePro-Bold.woff2') format('woff2'),
+        url('subset-BasisGrotesquePro-Bold.woff') format('woff'),
+        url('subset-BasisGrotesquePro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basis Grotesque Pro Black';
+    src: url('subset-BasisGrotesquePro-Black.eot');
+    src: url('subset-BasisGrotesquePro-Black.eot?#iefix') format('embedded-opentype'),
+        url('subset-BasisGrotesquePro-Black.woff2') format('woff2'),
+        url('subset-BasisGrotesquePro-Black.woff') format('woff'),
+        url('subset-BasisGrotesquePro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basis Grotesque Pro Medium';
+    src: url('subset-BasisGrotesquePro-Medium.eot');
+    src: url('subset-BasisGrotesquePro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('subset-BasisGrotesquePro-Medium.woff2') format('woff2'),
+        url('subset-BasisGrotesquePro-Medium.woff') format('woff'),
+        url('subset-BasisGrotesquePro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
